@@ -43,7 +43,7 @@ app.use(errorHandler);
 // Connect to DB and start server
 const PORT = process.env.PORT || 5000;
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect("mongodb+srv://Mongo2208:test123@cluster0.l1cor90.mongodb.net/")
   .then(() => {
     app.listen(PORT, () => {
       console.log(`Server Running on port ${PORT}`);
