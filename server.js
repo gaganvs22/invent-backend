@@ -9,6 +9,8 @@ const contactRoute = require("./routes/contactRoute");
 const errorHandler = require("./middleWare/errorMiddleware");
 const cookieParser = require("cookie-parser");
 const path = require("path");
+require('dotenv').config()
+
 
 const app = express();
 
