@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["https://invent-backend-67iz.onrender.com"],
+    origin: ["http://localhost:3000","https://clever-raindrop-8fdc14.netlify.app/"],
     credentials: true,
   })
 );
